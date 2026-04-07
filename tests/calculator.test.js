@@ -14,3 +14,6 @@ expect(divide(6, 3)).toBe(2);
 test("divide by zero", () => {
 expect(() => divide(5, 0)).toThrow();
 });
+test('demo test', () => {
+  expect(1 + 1).toBe(2);
+});
